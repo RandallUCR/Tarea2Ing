@@ -21,8 +21,6 @@ D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\scopedcss\bundle\
 D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\TareaDDD.TagHelpers.input.cache
 D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\TareaDDD.TagHelpers.output.cache
 D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\TareaDDD.RazorCoreGenerate.cache
-D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -35,3 +33,18 @@ D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\TareaDDD.dll
 D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\TareaDDD.pdb
 D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\TareaDDD.genruntimeconfig.cache
 D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\TareaDDD.csproj.CopyComplete
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\Aplication.dll
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\Domain.Model.dll
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\Domain.Services.dll
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\Infrastructure.DataAccess.dll
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\Aplication.pdb
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\Domain.Model.pdb
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\Domain.Services.pdb
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\bin\Debug\netcoreapp3.1\Infrastructure.DataAccess.pdb
+D:\UCR\Ing\Tarea2Ing\TareaDDD\TareaDDD\obj\Debug\netcoreapp3.1\Razor\Views\Curso\Index.cshtml.g.cs
