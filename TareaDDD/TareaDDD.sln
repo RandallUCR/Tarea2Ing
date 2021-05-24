@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TareaDDD", "TareaDDD\TareaDDD.csproj", "{63CD007F-9117-4449-A905-8E8C0310CB6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{0C895F5C-2CF5-40BF-8490-10B9730D090E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Distributed Services", "2.Distributed Services", "{89B107C7-8C04-4BB3-A28C-381421F91B74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Application", "3.Application", "{C8CA5169-037D-4F4F-B171-3C5A3CF8D74A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Domain", "4.Domain", "{5D4E648D-508F-4AC4-B7B0-5E254FAAD594}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Infrastructure", "5.Infrastructure", "{09CCEB19-F27A-4E05-91B0-0B21D76A38AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63CD007F-9117-4449-A905-8E8C0310CB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63CD007F-9117-4449-A905-8E8C0310CB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63CD007F-9117-4449-A905-8E8C0310CB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63CD007F-9117-4449-A905-8E8C0310CB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63CD007F-9117-4449-A905-8E8C0310CB6A} = {0C895F5C-2CF5-40BF-8490-10B9730D090E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BA267A7-EBAF-42C0-9FBE-F8874A4592E0}
+	EndGlobalSection
+EndGlobal
