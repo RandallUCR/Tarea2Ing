@@ -24,5 +24,21 @@ namespace Aplication
         {
             return cursoRepository.insertar(curso);
         }
+
+        public Curso consultarById(int id)
+        {
+            return cursoRepository.getById(id);
+            //return new Curso { id = id, siglas = "", nombre = "", creditos = 1, cupos = 1 };
+        }
+
+        public int editar(Curso curso)
+        {
+            return cursoRepository.editar(curso);
+        }
+
+        public int eliminar(int id)
+        {
+            return cursoRepository.eliminar(id);
+        }
     }
 }

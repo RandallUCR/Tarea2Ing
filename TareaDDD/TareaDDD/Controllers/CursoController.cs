@@ -39,6 +39,12 @@ namespace TareaDDD.Controllers
             return viewModel;
         }
 
+        public string consultarById(int id){
+            Curso curso = new CursoService().consultarById(id);
+            return curso.id + "|" + curso.siglas + "|" + curso.nombre + "|" + curso.creditos + "|" + curso.cupos;
+            //return "" + id + "";
+        }
+
         public IActionResult Index()
         {
             ViewBag.lista = this.consultar("");
@@ -61,6 +67,26 @@ namespace TareaDDD.Controllers
             ViewBag.Message = new MessageViewModel(result).toString();
             ViewBag.lista = this.consultar("");
             return View("Index");
+        }
+
+        public int Editar(int id_curso, string siglas_curso, string nombre_curso, int creditos_curso, int cupos_curso) {
+            CursoViewModel cvm = new CursoViewModel();
+            cvm.id = id_curso;
+            cvm.siglas = siglas_curso;
+            cvm.nombre = nombre_curso; 
+            cvm.creditos = creditos_curso;
+            cvm.cupos = cupos_curso;
+
+            var result = new CursoService().editar(new Curso { id = cvm.id, siglas = cvm.siglas, nombre = cvm.nombre, creditos = cvm.creditos, cupos = cvm.cupos });
+
+            ViewBag.Message = new MessageViewModel(result).toString();
+            ViewBag.lista = this.consultar("");
+
+            return result;
+        }
+
+        public int Eliminar(int id){
+            return new CursoService().eliminar(id);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
