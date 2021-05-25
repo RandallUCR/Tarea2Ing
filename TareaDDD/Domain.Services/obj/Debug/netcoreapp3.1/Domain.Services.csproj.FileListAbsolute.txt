@@ -1,0 +1,9 @@
+D:\UCR\Ing\Tarea2Ing\TareaDDD\Domain.Services\bin\Debug\netcoreapp3.1\Domain.Services.deps.json
+D:\UCR\Ing\Tarea2Ing\TareaDDD\Domain.Services\bin\Debug\netcoreapp3.1\Domain.Services.dll
+D:\UCR\Ing\Tarea2Ing\TareaDDD\Domain.Services\bin\Debug\netcoreapp3.1\Domain.Services.pdb
+D:\UCR\Ing\Tarea2Ing\TareaDDD\Domain.Services\obj\Debug\netcoreapp3.1\Domain.Services.csprojAssemblyReference.cache
+D:\UCR\Ing\Tarea2Ing\TareaDDD\Domain.Services\obj\Debug\netcoreapp3.1\Domain.Services.AssemblyInfoInputs.cache
+D:\UCR\Ing\Tarea2Ing\TareaDDD\Domain.Services\obj\Debug\netcoreapp3.1\Domain.Services.AssemblyInfo.cs
+D:\UCR\Ing\Tarea2Ing\TareaDDD\Domain.Services\obj\Debug\netcoreapp3.1\Domain.Services.csproj.CoreCompileInputs.cache
+D:\UCR\Ing\Tarea2Ing\TareaDDD\Domain.Services\obj\Debug\netcoreapp3.1\Domain.Services.dll
+D:\UCR\Ing\Tarea2Ing\TareaDDD\Domain.Services\obj\Debug\netcoreapp3.1\Domain.Services.pdb
