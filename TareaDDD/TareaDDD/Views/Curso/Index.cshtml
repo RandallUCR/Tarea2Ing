@@ -31,18 +31,10 @@
             <td>@c.creditos</td>
             <td>@c.cupos</td>
             <td>
-
-                <form>
-                    <input type="submit" value="Editar" class="btn-warning" />
-                </form>
-
+                <button type="button" class="btn btn-warning" onclick="getDataById(@c.id)">Editar</button>
             </td>
             <td>
-
-                <form>
-                    <input type="submit" value="Eliminar" class="btn-danger" />
-                </form>
-
+                <button type="button" class="btn btn-danger" onclick="eliminarCurso(@c.id)">Eliminar</button>
             </td>
         </tr>
         }
@@ -74,3 +66,35 @@
     </section>
 </section>
 
+
+<!--Modal para editar-->
+<div class="modal" tabindex="-1" id="modalEdit">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5>Editar curso seleccionado</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>ID: <span id="id_curso"></span></p>
+                <label for="siglas_curso" class="font-weight-bold">Siglas del curso</label>
+                <input type="text" placeholder="Siglas" id="siglas_curso" name="siglas_curso" class="form-control" required />
+
+                <label for="nombre_curso" class="font-weight-bold">Nombre del curso</label>
+                <input type="text" placeholder="Nombre" id="nombre_curso" name="nombre_curso" class="form-control" required />
+
+                <label for="creditos_curso" class="font-weight-bold">Cantidad de creditos</label>
+                <input type="number" placeholder="Creditos" id="creditos_curso" name="creditos_curso" class="form-control" required />
+
+                <label for="cupos_curso" class="font-weight-bold">Cantidad de cupos</label>
+                <input type="number" placeholder="Cupos" id="cupos_curso" name="cupos_curso" class="form-control" required />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary" onclick="editarCurso()"> Editar </button>
+            </div>
+        </div>
+    </div>
+</div>

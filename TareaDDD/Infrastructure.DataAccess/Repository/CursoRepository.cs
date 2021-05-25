@@ -11,12 +11,69 @@ namespace Infrastructure.DataAccess.Repository
     {
         public int editar(Curso curso)
         {
-            throw new NotImplementedException();
+            int result = 1;
+            try
+            {
+
+                SqlDataReader dr = consultar($"EXEC editar {curso.id}, '{curso.siglas}','{curso.nombre}', {curso.creditos}, {curso.cupos}");
+                if (dr != null)
+                {
+                    dr.Read();
+
+                    result = int.Parse(dr[0].ToString());
+                }
+            }
+            catch (SqlException e)
+            {
+                result = 1;
+            }
+            return result;
         }
 
-        public int eliminar(Curso curso)
+        public int eliminar(int id)
         {
-            throw new NotImplementedException();
+            int result = 1;
+            try
+            {
+
+                SqlDataReader dr = consultar($"EXEC eliminar {id}");
+                if (dr != null)
+                {
+                    dr.Read();
+
+                    result = int.Parse(dr[0].ToString());
+                }
+            }
+            catch (SqlException e)
+            {
+                result = 1;
+            }
+            return result;
+        }
+
+        public Curso getById(int id)
+        {
+            Curso curso = new Curso();
+
+            try
+            {
+                SqlDataReader dr = consultar($"EXEC getCursoById {id}");
+                if (dr != null)
+                {
+                    dr.Read();
+                    curso.id = int.Parse(dr[0].ToString());
+                    curso.siglas = dr[1].ToString();
+                    curso.nombre = dr[2].ToString();
+                    curso.creditos = int.Parse(dr[3].ToString());
+                    curso.cupos = int.Parse(dr[4].ToString());
+                }
+            }
+            catch
+            {
+                curso.id = -1;
+            }
+
+            return curso;
         }
 
         public int insertar(Curso curso)

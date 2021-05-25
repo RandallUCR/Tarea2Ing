@@ -9,7 +9,8 @@ namespace Domain.Model.Abstractions
     {
         int insertar(Curso curso);
         int editar(Curso curso);
-        int eliminar(Curso curso);
+        int eliminar(int id);
         IEnumerable<Curso> consultar(string filtro);
+        Curso getById(int id);
     }
 }

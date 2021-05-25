@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\TareaDDD\\TareaDDD.csproj": {}
+    "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\TareaDDD\\TareaDDD.csproj": {}
   },
   "projects": {
-    "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Aplication\\Aplication.csproj": {
+    "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Aplication\\Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Aplication\\Aplication.csproj",
+        "projectUniqueName": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Aplication\\Aplication.csproj",
         "projectName": "Aplication",
-        "projectPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Aplication\\Aplication.csproj",
-        "packagesPath": "C:\\Users\\randa\\.nuget\\packages\\",
-        "outputPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Aplication\\obj\\",
+        "projectPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Aplication\\Aplication.csproj",
+        "packagesPath": "C:\\Users\\congr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\randa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\congr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,16 +26,15 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj": {
-                "projectPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj"
+              "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj"
               },
-              "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj": {
-                "projectPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj"
+              "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj": {
+                "projectPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj"
               },
-              "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Infrastructure.DataAccess\\Infrastructure.DataAccess.csproj": {
-                "projectPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Infrastructure.DataAccess\\Infrastructure.DataAccess.csproj"
+              "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Infrastructure.DataAccess\\Infrastructure.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Infrastructure.DataAccess\\Infrastructure.DataAccess.csproj"
               }
             }
           }
@@ -48,7 +47,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -64,21 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300-preview-015115\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj": {
+    "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj",
+        "projectUniqueName": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj",
         "projectName": "Domain.Model",
-        "projectPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj",
-        "packagesPath": "C:\\Users\\randa\\.nuget\\packages\\",
-        "outputPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Model\\obj\\",
+        "projectPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj",
+        "packagesPath": "C:\\Users\\congr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\randa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\congr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,7 +88,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -102,7 +99,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -118,21 +114,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300-preview-015115\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj": {
+    "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj",
+        "projectUniqueName": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj",
         "projectName": "Domain.Services",
-        "projectPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj",
-        "packagesPath": "C:\\Users\\randa\\.nuget\\packages\\",
-        "outputPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Services\\obj\\",
+        "projectPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\congr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\randa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\congr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -144,7 +140,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -156,7 +151,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -172,21 +166,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300-preview-015115\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Infrastructure.DataAccess\\Infrastructure.DataAccess.csproj": {
+    "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Infrastructure.DataAccess\\Infrastructure.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Infrastructure.DataAccess\\Infrastructure.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Infrastructure.DataAccess\\Infrastructure.DataAccess.csproj",
         "projectName": "Infrastructure.DataAccess",
-        "projectPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Infrastructure.DataAccess\\Infrastructure.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\randa\\.nuget\\packages\\",
-        "outputPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Infrastructure.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Infrastructure.DataAccess\\Infrastructure.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\congr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Infrastructure.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\randa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\congr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -198,10 +192,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj": {
-                "projectPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj"
+              "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj"
               }
             }
           }
@@ -214,7 +207,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "System.Data.SqlClient": {
               "target": "Package",
@@ -236,21 +228,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300-preview-015115\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\TareaDDD\\TareaDDD.csproj": {
+    "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\TareaDDD\\TareaDDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\TareaDDD\\TareaDDD.csproj",
+        "projectUniqueName": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\TareaDDD\\TareaDDD.csproj",
         "projectName": "TareaDDD",
-        "projectPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\TareaDDD\\TareaDDD.csproj",
-        "packagesPath": "C:\\Users\\randa\\.nuget\\packages\\",
-        "outputPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\TareaDDD\\obj\\",
+        "projectPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\TareaDDD\\TareaDDD.csproj",
+        "packagesPath": "C:\\Users\\congr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\TareaDDD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\randa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\congr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -262,16 +254,15 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Aplication\\Aplication.csproj": {
-                "projectPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Aplication\\Aplication.csproj"
+              "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Aplication\\Aplication.csproj": {
+                "projectPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Aplication\\Aplication.csproj"
               },
-              "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj": {
-                "projectPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj"
+              "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj": {
+                "projectPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Model\\Domain.Model.csproj"
               },
-              "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj": {
-                "projectPath": "D:\\UCR\\Ing\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj"
+              "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj": {
+                "projectPath": "C:\\Users\\congr\\source\\repos\\Tarea2Ing\\TareaDDD\\Domain.Services\\Domain.Services.csproj"
               }
             }
           }
@@ -284,7 +275,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -303,7 +293,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300-preview-015115\\RuntimeIdentifierGraph.json"
         }
       }
     }
